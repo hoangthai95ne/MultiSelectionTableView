@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA79A121C93C8E900F90541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A111C93C8E900F90541 /* main.m */; };
+		ABA79A151C93C8E900F90541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A141C93C8E900F90541 /* AppDelegate.m */; };
+		ABA79A181C93C8E900F90541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A171C93C8E900F90541 /* ViewController.m */; };
+		ABA79A1B1C93C8E900F90541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A191C93C8E900F90541 /* Main.storyboard */; };
+		ABA79A1D1C93C8E900F90541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A1C1C93C8E900F90541 /* Assets.xcassets */; };
+		ABA79A201C93C8E900F90541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A1E1C93C8E900F90541 /* LaunchScreen.storyboard */; };
+		ABA79A2B1C93C8E900F90541 /* MultiSelectionTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A2A1C93C8E900F90541 /* MultiSelectionTableTests.m */; };
+		ABA79A361C93C8E900F90541 /* MultiSelectionTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A351C93C8E900F90541 /* MultiSelectionTableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA79A271C93C8E900F90541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA79A051C93C8E900F90541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA79A0C1C93C8E900F90541;
+			remoteInfo = MultiSelectionTable;
+		};
+		ABA79A321C93C8E900F90541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA79A051C93C8E900F90541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA79A0C1C93C8E900F90541;
+			remoteInfo = MultiSelectionTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA79A0D1C93C8E900F90541 /* MultiSelectionTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSelectionTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA79A111C93C8E900F90541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA79A131C93C8E900F90541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABA79A141C93C8E900F90541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABA79A161C93C8E900F90541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABA79A171C93C8E900F90541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABA79A1A1C93C8E900F90541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA79A1C1C93C8E900F90541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA79A1F1C93C8E900F90541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA79A211C93C8E900F90541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA79A261C93C8E900F90541 /* MultiSelectionTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelectionTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA79A2A1C93C8E900F90541 /* MultiSelectionTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionTableTests.m; sourceTree = "<group>"; };
+		ABA79A2C1C93C8E900F90541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA79A311C93C8E900F90541 /* MultiSelectionTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelectionTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA79A351C93C8E900F90541 /* MultiSelectionTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionTableUITests.m; sourceTree = "<group>"; };
+		ABA79A371C93C8E900F90541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA79A0A1C93C8E900F90541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA79A231C93C8E900F90541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA79A2E1C93C8E900F90541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA79A041C93C8E900F90541 = {
+			isa = PBXGroup;
+			children = (
+				ABA79A0F1C93C8E900F90541 /* MultiSelectionTable */,
+				ABA79A291C93C8E900F90541 /* MultiSelectionTableTests */,
+				ABA79A341C93C8E900F90541 /* MultiSelectionTableUITests */,
+				ABA79A0E1C93C8E900F90541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA79A0E1C93C8E900F90541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA79A0D1C93C8E900F90541 /* MultiSelectionTable.app */,
+				ABA79A261C93C8E900F90541 /* MultiSelectionTableTests.xctest */,
+				ABA79A311C93C8E900F90541 /* MultiSelectionTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA79A0F1C93C8E900F90541 /* MultiSelectionTable */ = {
+			isa = PBXGroup;
+			children = (
+				ABA79A131C93C8E900F90541 /* AppDelegate.h */,
+				ABA79A141C93C8E900F90541 /* AppDelegate.m */,
+				ABA79A161C93C8E900F90541 /* ViewController.h */,
+				ABA79A171C93C8E900F90541 /* ViewController.m */,
+				ABA79A191C93C8E900F90541 /* Main.storyboard */,
+				ABA79A1C1C93C8E900F90541 /* Assets.xcassets */,
+				ABA79A1E1C93C8E900F90541 /* LaunchScreen.storyboard */,
+				ABA79A211C93C8E900F90541 /* Info.plist */,
+				ABA79A101C93C8E900F90541 /* Supporting Files */,
+			);
+			path = MultiSelectionTable;
+			sourceTree = "<group>";
+		};
+		ABA79A101C93C8E900F90541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA79A111C93C8E900F90541 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA79A291C93C8E900F90541 /* MultiSelectionTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA79A2A1C93C8E900F90541 /* MultiSelectionTableTests.m */,
+				ABA79A2C1C93C8E900F90541 /* Info.plist */,
+			);
+			path = MultiSelectionTableTests;
+			sourceTree = "<group>";
+		};
+		ABA79A341C93C8E900F90541 /* MultiSelectionTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA79A351C93C8E900F90541 /* MultiSelectionTableUITests.m */,
+				ABA79A371C93C8E900F90541 /* Info.plist */,
+			);
+			path = MultiSelectionTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA79A0C1C93C8E900F90541 /* MultiSelectionTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA79A3A1C93C8E900F90541 /* Build configuration list for PBXNativeTarget "MultiSelectionTable" */;
+			buildPhases = (
+				ABA79A091C93C8E900F90541 /* Sources */,
+				ABA79A0A1C93C8E900F90541 /* Frameworks */,
+				ABA79A0B1C93C8E900F90541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiSelectionTable;
+			productName = MultiSelectionTable;
+			productReference = ABA79A0D1C93C8E900F90541 /* MultiSelectionTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA79A251C93C8E900F90541 /* MultiSelectionTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA79A3D1C93C8E900F90541 /* Build configuration list for PBXNativeTarget "MultiSelectionTableTests" */;
+			buildPhases = (
+				ABA79A221C93C8E900F90541 /* Sources */,
+				ABA79A231C93C8E900F90541 /* Frameworks */,
+				ABA79A241C93C8E900F90541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA79A281C93C8E900F90541 /* PBXTargetDependency */,
+			);
+			name = MultiSelectionTableTests;
+			productName = MultiSelectionTableTests;
+			productReference = ABA79A261C93C8E900F90541 /* MultiSelectionTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA79A301C93C8E900F90541 /* MultiSelectionTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA79A401C93C8E900F90541 /* Build configuration list for PBXNativeTarget "MultiSelectionTableUITests" */;
+			buildPhases = (
+				ABA79A2D1C93C8E900F90541 /* Sources */,
+				ABA79A2E1C93C8E900F90541 /* Frameworks */,
+				ABA79A2F1C93C8E900F90541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA79A331C93C8E900F90541 /* PBXTargetDependency */,
+			);
+			name = MultiSelectionTableUITests;
+			productName = MultiSelectionTableUITests;
+			productReference = ABA79A311C93C8E900F90541 /* MultiSelectionTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA79A051C93C8E900F90541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = techmaster;
+				TargetAttributes = {
+					ABA79A0C1C93C8E900F90541 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					ABA79A251C93C8E900F90541 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ABA79A0C1C93C8E900F90541;
+					};
+					ABA79A301C93C8E900F90541 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = ABA79A0C1C93C8E900F90541;
+					};
+				};
+			};
+			buildConfigurationList = ABA79A081C93C8E900F90541 /* Build configuration list for PBXProject "MultiSelectionTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA79A041C93C8E900F90541;
+			productRefGroup = ABA79A0E1C93C8E900F90541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA79A0C1C93C8E900F90541 /* MultiSelectionTable */,
+				ABA79A251C93C8E900F90541 /* MultiSelectionTableTests */,
+				ABA79A301C93C8E900F90541 /* MultiSelectionTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA79A0B1C93C8E900F90541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA79A201C93C8E900F90541 /* LaunchScreen.storyboard in Resources */,
+				ABA79A1D1C93C8E900F90541 /* Assets.xcassets in Resources */,
+				ABA79A1B1C93C8E900F90541 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA79A241C93C8E900F90541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA79A2F1C93C8E900F90541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA79A091C93C8E900F90541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA79A181C93C8E900F90541 /* ViewController.m in Sources */,
+				ABA79A151C93C8E900F90541 /* AppDelegate.m in Sources */,
+				ABA79A121C93C8E900F90541 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA79A221C93C8E900F90541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA79A2B1C93C8E900F90541 /* MultiSelectionTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA79A2D1C93C8E900F90541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA79A361C93C8E900F90541 /* MultiSelectionTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA79A281C93C8E900F90541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA79A0C1C93C8E900F90541 /* MultiSelectionTable */;
+			targetProxy = ABA79A271C93C8E900F90541 /* PBXContainerItemProxy */;
+		};
+		ABA79A331C93C8E900F90541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA79A0C1C93C8E900F90541 /* MultiSelectionTable */;
+			targetProxy = ABA79A321C93C8E900F90541 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA79A191C93C8E900F90541 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA79A1A1C93C8E900F90541 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA79A1E1C93C8E900F90541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA79A1F1C93C8E900F90541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA79A381C93C8E900F90541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA79A391C93C8E900F90541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA79A3B1C93C8E900F90541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiSelectionTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthai.vn.MultiSelectionTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABA79A3C1C93C8E900F90541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiSelectionTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthai.vn.MultiSelectionTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABA79A3E1C93C8E900F90541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiSelectionTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthai.vn.MultiSelectionTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiSelectionTable.app/MultiSelectionTable";
+			};
+			name = Debug;
+		};
+		ABA79A3F1C93C8E900F90541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MultiSelectionTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthai.vn.MultiSelectionTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiSelectionTable.app/MultiSelectionTable";
+			};
+			name = Release;
+		};
+		ABA79A411C93C8E900F90541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiSelectionTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthai.vn.MultiSelectionTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiSelectionTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABA79A421C93C8E900F90541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MultiSelectionTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoangthai.vn.MultiSelectionTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultiSelectionTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA79A081C93C8E900F90541 /* Build configuration list for PBXProject "MultiSelectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA79A381C93C8E900F90541 /* Debug */,
+				ABA79A391C93C8E900F90541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA79A3A1C93C8E900F90541 /* Build configuration list for PBXNativeTarget "MultiSelectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA79A3B1C93C8E900F90541 /* Debug */,
+				ABA79A3C1C93C8E900F90541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA79A3D1C93C8E900F90541 /* Build configuration list for PBXNativeTarget "MultiSelectionTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA79A3E1C93C8E900F90541 /* Debug */,
+				ABA79A3F1C93C8E900F90541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA79A401C93C8E900F90541 /* Build configuration list for PBXNativeTarget "MultiSelectionTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA79A411C93C8E900F90541 /* Debug */,
+				ABA79A421C93C8E900F90541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA79A051C93C8E900F90541 /* Project object */;
+}
