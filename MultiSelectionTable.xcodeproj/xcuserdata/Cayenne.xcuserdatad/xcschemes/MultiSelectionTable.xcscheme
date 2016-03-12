@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ABA79A0C1C93C8E900F90541"
+               BuildableName = "MultiSelectionTable.app"
+               BlueprintName = "MultiSelectionTable"
+               ReferencedContainer = "container:MultiSelectionTable.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ABA79A251C93C8E900F90541"
+               BuildableName = "MultiSelectionTableTests.xctest"
+               BlueprintName = "MultiSelectionTableTests"
+               ReferencedContainer = "container:MultiSelectionTable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ABA79A301C93C8E900F90541"
+               BuildableName = "MultiSelectionTableUITests.xctest"
+               BlueprintName = "MultiSelectionTableUITests"
+               ReferencedContainer = "container:MultiSelectionTable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ABA79A0C1C93C8E900F90541"
+            BuildableName = "MultiSelectionTable.app"
+            BlueprintName = "MultiSelectionTable"
+            ReferencedContainer = "container:MultiSelectionTable.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ABA79A0C1C93C8E900F90541"
+            BuildableName = "MultiSelectionTable.app"
+            BlueprintName = "MultiSelectionTable"
+            ReferencedContainer = "container:MultiSelectionTable.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ABA79A0C1C93C8E900F90541"
+            BuildableName = "MultiSelectionTable.app"
+            BlueprintName = "MultiSelectionTable"
+            ReferencedContainer = "container:MultiSelectionTable.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

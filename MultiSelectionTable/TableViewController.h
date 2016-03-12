@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  MultiSelectionTable
 //
 //  Created by Hoàng Thái on 3/12/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-

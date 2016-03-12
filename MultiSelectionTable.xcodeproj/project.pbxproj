@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		ABA79A121C93C8E900F90541 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A111C93C8E900F90541 /* main.m */; };
 		ABA79A151C93C8E900F90541 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A141C93C8E900F90541 /* AppDelegate.m */; };
-		ABA79A181C93C8E900F90541 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A171C93C8E900F90541 /* ViewController.m */; };
 		ABA79A1B1C93C8E900F90541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A191C93C8E900F90541 /* Main.storyboard */; };
 		ABA79A1D1C93C8E900F90541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A1C1C93C8E900F90541 /* Assets.xcassets */; };
 		ABA79A201C93C8E900F90541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA79A1E1C93C8E900F90541 /* LaunchScreen.storyboard */; };
 		ABA79A2B1C93C8E900F90541 /* MultiSelectionTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A2A1C93C8E900F90541 /* MultiSelectionTableTests.m */; };
 		ABA79A361C93C8E900F90541 /* MultiSelectionTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A351C93C8E900F90541 /* MultiSelectionTableUITests.m */; };
+		ABA79A451C93C93700F90541 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A441C93C93700F90541 /* TableViewController.m */; };
+		ABA79A491C93C99400F90541 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA79A481C93C99400F90541 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		ABA79A111C93C8E900F90541 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA79A131C93C8E900F90541 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABA79A141C93C8E900F90541 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABA79A161C93C8E900F90541 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ABA79A171C93C8E900F90541 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ABA79A1A1C93C8E900F90541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABA79A1C1C93C8E900F90541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABA79A1F1C93C8E900F90541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		ABA79A311C93C8E900F90541 /* MultiSelectionTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSelectionTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA79A351C93C8E900F90541 /* MultiSelectionTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionTableUITests.m; sourceTree = "<group>"; };
 		ABA79A371C93C8E900F90541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA79A431C93C93700F90541 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		ABA79A441C93C93700F90541 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		ABA79A471C93C99400F90541 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ABA79A481C93C99400F90541 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +106,13 @@
 			children = (
 				ABA79A131C93C8E900F90541 /* AppDelegate.h */,
 				ABA79A141C93C8E900F90541 /* AppDelegate.m */,
-				ABA79A161C93C8E900F90541 /* ViewController.h */,
-				ABA79A171C93C8E900F90541 /* ViewController.m */,
+				ABA79A431C93C93700F90541 /* TableViewController.h */,
+				ABA79A441C93C93700F90541 /* TableViewController.m */,
 				ABA79A191C93C8E900F90541 /* Main.storyboard */,
 				ABA79A1C1C93C8E900F90541 /* Assets.xcassets */,
 				ABA79A1E1C93C8E900F90541 /* LaunchScreen.storyboard */,
 				ABA79A211C93C8E900F90541 /* Info.plist */,
+				ABA79A461C93C98000F90541 /* Person */,
 				ABA79A101C93C8E900F90541 /* Supporting Files */,
 			);
 			path = MultiSelectionTable;
@@ -138,6 +142,15 @@
 				ABA79A371C93C8E900F90541 /* Info.plist */,
 			);
 			path = MultiSelectionTableUITests;
+			sourceTree = "<group>";
+		};
+		ABA79A461C93C98000F90541 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				ABA79A471C93C99400F90541 /* Person.h */,
+				ABA79A481C93C99400F90541 /* Person.m */,
+			);
+			name = Person;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA79A181C93C8E900F90541 /* ViewController.m in Sources */,
 				ABA79A151C93C8E900F90541 /* AppDelegate.m in Sources */,
+				ABA79A451C93C93700F90541 /* TableViewController.m in Sources */,
+				ABA79A491C93C99400F90541 /* Person.m in Sources */,
 				ABA79A121C93C8E900F90541 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
